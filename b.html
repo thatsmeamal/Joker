@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="qwe.css" type="text/css"></link>
+<title>Joker's Arena</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+	$("#signup").click(function()
+	{
+		var f = $("#Fname").val();
+		var l = $("#Lname").val();
+		var d = $("#dob").val();
+		var e = $("#email").val();
+		alert("Fist Name is: "+f+"\n\nLast Name is: "+l+"\n\nDate of Birth is: "+d+"\n\nEmail-id is: "+e);
+	});
+});
+</script>
+
+
+
+
+</head>
+<body background="3.jpeg" style="background-position:-50% 0%">
+
+<a href="file:///home/user/Desktop/HTML/a.html"> 
+	<img id="pp" src="22.png" width=80px height=70px alt="NOOOOOOOOOOOOOO"/> 
+</a>
+
+<h2>SIGN UP</h2>
+
+
+<div id="qq">
+	<label id="ee">First Name</label>
+	<input class="ff" type="text" id="Fname" placeholder="Enter your first name"/><br><br><br>
+
+
+	<label id="ee">Last Name</label>
+	<input class="ff" type="text" id="Lname" placeholder="Enter your last name"/><br><br><br>
+
+
+	<label id="ee">Date of Birth</label>
+	<input class="ff" id="dob" placeholder="Select your Date of Birth" class="textbox-n" type="text" onfocus="(this.type='date')" size="60" onblur="(this.type='text')" id="date"><br><br><br>
+
+
+	<label id="ee">E-mail ID</label>
+	<input class="ff" type="text" id="email" placeholder="Enter your e-mail id"/><br><br><br>
+
+
+	<label id="ee">Password</label>
+	<input class="ff" type="password" name="password" placeholder="Enter your password"/><br><br><br><br><br>
+
+
+	<input style="font-variant:small-caps;" type="submit" id="signup" value="Sign Up" onclick="ins();"/>
+</div>
+</body>
+</html> 
